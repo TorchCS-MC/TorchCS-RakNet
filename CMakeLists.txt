@@ -5,8 +5,8 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(ModernRakNet
         main.c
-        src/Base64.c
-        src/RakNetSocket_Windows.c
-        src/RakPeer.c
-        src/BitStream.c
+        utils/Base64.c
+        socket/raknet/RakNetSocket_Windows.c
+        socket/raknet/RakPeer.c
+        socket/UDPSocket_Windows.c
 )
