@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.27)
-project(ModernRakNet C)
+project(TorchCS-RakNet C)
 
 set(CMAKE_C_STANDARD 11)
 
@@ -9,4 +9,5 @@ add_executable(ModernRakNet
         socket/raknet/RakNetSocket_Windows.c
         socket/raknet/RakPeer.c
         socket/UDPSocket_Windows.c
+        socket/UDPSocket_Linux.c
 )

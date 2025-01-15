@@ -1,5 +1,8 @@
 #ifndef TORCHCSRAKNET_RAKPEER_H
 #define TORCHCSRAKNET_RAKPEER_H
 
+#define RAKNET_VERSION = 1;
+
+
 
 #endif
